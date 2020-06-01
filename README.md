@@ -40,11 +40,9 @@ Starting a school or university project to create a dataset of crop and weed see
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 
-Find more interesting projects on my 
-                                    [![alt text][6.1]][6]
+Find more interesting projects on my [6.1]: http://i.imgur.com/0o48UoR.png
                                     
                                     
-
 [6.1]: http://i.imgur.com/0o48UoR.png
 
 [6]: https://github.com/KKhushhalR2405
