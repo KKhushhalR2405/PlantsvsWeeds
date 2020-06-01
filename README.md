@@ -19,3 +19,10 @@ This dataset contains 5,539 images of crop and weed seedlings. The images are gr
 These classes represent common plant species in Danish agriculture. Each class contains rgb images that show plants at different growth 
 stages. The images are in various sizes and are in png format.
 
+If you want to split the dataset into training, validation, and train set, use **split-folder** module.
+
+```diff
+pip install split-folder
+```
+To know how to use split-folder : https://pypi.org/project/split-folders/
+
