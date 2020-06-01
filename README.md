@@ -36,3 +36,15 @@ To import the dataset directly into Goggle colab, refer [here](https://medium.co
 
 Starting a school or university project to create a dataset of crop and weed seedling images in a local farming community and then create a weed detection model based on your dataset and deploying the model as a web app so farmers can use it.
 
+----------------------------------------------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+Find more interesting projects on my 
+                                    [![alt text][6.1]][6]
+                                    
+                                    
+
+[6.1]: http://i.imgur.com/0o48UoR.png
+
+[6]: https://github.com/KKhushhalR2405
