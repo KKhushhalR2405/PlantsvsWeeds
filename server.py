@@ -5,9 +5,11 @@ import torchvision.transforms as transforms
 import pickle
 import torch.nn as nn
 import torch.nn.functional as F
-from PIL import ImageFile
+from PIL import *
 import numpy as np
 from flask import *
+import requests
+from io import BytesIO
 
 
 class Net(nn.Module):
@@ -91,7 +93,7 @@ def type(image_path):
         return class_names[idx]
 
     def run_app(img):
-        img = Image.open(img)
+        # img = Image.open(img)
         prediction = predict_image(model, class_names, img)
         return prediction
     p = run_app(image_path)
@@ -108,9 +110,12 @@ app = Flask(__name__)
 
 @app.route('/', methods=['POST','GET'])
 def main():
-    
-    image_path = r"D:\Projects\PlantsvsWeeds\data\test\Common Chickweed\11.png"
-    return type(image_path)
+    data = request.get_json()
+    img_url=data["data"]
+    response=requests.get(img_url)
+    img_org=Image.open(BytesIO(response.content))
+    output = type(img_org)
+    return jsonify(output)
 
 
 
