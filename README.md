@@ -42,8 +42,8 @@ Starting a school or university project to create a dataset of crop and weed see
 
 ### Implementation 
 
-![](https://user-images.githubusercontent.com/58569950/125200676-add8de00-e289-11eb-92f4-f701084931c0.png | width=100)
-![image](https://user-images.githubusercontent.com/58569950/125200710-c812bc00-e289-11eb-9de0-c05459aebb64.png)
+![image](https://user-images.githubusercontent.com/58569950/125200676-add8de00-e289-11eb-92f4-f701084931c0.png) </br></br></br></br>
+![image](https://user-images.githubusercontent.com/58569950/125200710-c812bc00-e289-11eb-9de0-c05459aebb64.png) </br></br></br></br>
 ![image](https://user-images.githubusercontent.com/58569950/125200736-d8c33200-e289-11eb-90e6-6d537e99ddb7.png)
 
 
