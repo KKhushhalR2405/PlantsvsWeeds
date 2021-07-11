@@ -47,11 +47,11 @@ def upload_image():
 		j_data = json.dumps({"data":img_url,"type":"image"})
 		headers = {'content-type': 'application/json', 'Accept-Charset': 'UTF-8'}
 		r = requests.post(url, data=j_data, headers=headers)
-		print(r.text)
-		return render_template("index.html")
+		answer = "Predicted Weed : " + r.text[1:-2]
+		return render_template("index.html",answer = answer)
 	except Exception as e:
 		print(e)
-		return render_template("index.html")
+		return render_template("index.html",answer = "")
 
 if __name__=="__main__":
     app.run(host='127.0.0.1',port=1025,debug=True)

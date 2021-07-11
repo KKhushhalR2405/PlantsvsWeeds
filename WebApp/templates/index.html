@@ -2,9 +2,12 @@
 <html>
 <head>
 	<title>Plant virudh Weed</title>
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
 </head>
-<body>
-
+<body style = "background-color: coral;">
+	<h1 class = "head"> Plant Weed Classifier </h1>
+	<br><br><hr><br><br>
+	<div class = "content">
 	<form method="POST" action="/" enctype="multipart/form-data">
       <dl>
           <p>
@@ -17,6 +20,10 @@
          </dl>
 
     </form>
+	
+	<p> {{answer}} </p>
+	
+	</div>
 
 </body>
 </html>
